@@ -5,3 +5,17 @@ body, html {
   text-align: center;
   color: white;
 }
+#padding-img{
+	padding: 0;
+}
+#size-img{
+	height: 220px;
+	width: 326px;
+	margin: auto;
+}
+.mb-0{
+	margin-bottom: 0;
+}
+.mt-5,#row{
+	margin-top: 5%;
+}
