@@ -12,63 +12,160 @@
   <body>
     <header class="valign-wrapper center-align">
       <div class="row">
-        <h1 class="white-text">NOMBRE APELLIDO</h1>
-        <h5 class="waves-effect grey lighten-4">WEB AND MOBILE DEVELOPER</h5>
+        <h1 class="white-text">nombre apellido</h1>
+        <h5 class="waves-effect grey lighten-4">web and mobile developer</h5>
       </div>
     </header>
-    <section class="section" id="about-me">
-      <div class="container">
-        <div class="row center-align">
-          <h5>ABOUT ME</h5>
-          <h6>LET ME INTRODUCE MY SELF</h6>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col s12 m4 l4 justify">
-            <h6 class="center-align title">STORY</h6>
-            <p>Monica Lynn Brodovsky is a graphic designer, illustrator, typographer, photographer, photo retoucher, screen printer, chocolate enthusiast, and mother to the most beautiful daughter in the world (slightly biased).</p>
-            <p>When she's not busy sharing cheerios from the floor with her toddler, she enjoys obsessing over fine details and trying to find the perfect balance between work life and mom life.</p>
+    <main>
+      <!-- about me -->
+      <section class="section">
+        <div class="container">
+          <div class="row center-align">
+            <div class="col s12">
+              <h5>about me</h5>
+              <h6>let me introduce my self</h6>
+              <hr class="line">
+            </div>
           </div>
-          <div class="col s12 m4 l4">
-            <h6 class="center-align title">PROFILE</h6>
-            <div class="card blue-grey darken-1 center-align">
-              <div class="card-content white-text">
-                <img src="assets/img/Woman.png" alt="">
-                <p>Monica earned her degree in Graphic and Interactive Design from Temple University the Tyler School of art in 2011.</p>
+          <div class="row">
+            <div class="col s12 m4 l4 justify">
+              <h6 class="center-align title">story</h6>
+              <p>Monica Lynn Brodovsky is a graphic designer, illustrator, typographer, photographer, photo retoucher, screen printer, chocolate enthusiast, and mother to the most beautiful daughter in the world (slightly biased).</p>
+              <p>When she's not busy sharing cheerios from the floor with her toddler, she enjoys obsessing over fine details and trying to find the perfect balance between work life and mom life.</p>
+            </div>
+            <div class="col s12 m4 l4">
+              <h6 class="center-align title">profile</h6>
+              <div class="card blue-grey darken-1 center-align">
+                <div class="card-content white-text">
+                  <img src="assets/img/Woman.png" alt="">
+                  <p>Monica earned her degree in Graphic and Interactive Design from Temple University the Tyler School of art in 2011.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                </div>
               </div>
-              <div class="card-action">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+            </div>
+            <div class="col s12 m4 l4">
+              <h6 class="center-align title">current jobs</h6>
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header">Designer</div>
+                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Developer</div>
+                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Video Editor</div>
+                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Support Assistant</div>
+                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portafolio -->
+      <section class="section white">
+        <div class="container">
+          <div class="row center-align">
+            <div class="col s12">
+              <h5>portafolio</h5>
+              <h6>my latest projects</h6>
+              <hr class="line">
+            </div>
+          </div>
+          <div class="row mb-0">
+           <div class="col s12 m4" id="padding-img">
+             <img class="materialboxed responsive-img" id="size-img"  src="assets/img/desk-book-min.jpg" alt="Desk-book">
+           </div>
+           <div class="col s12 m4" id="padding-img">
+             <img class="materialboxed responsive-img" id="size-img"  src="assets/img/consola-min.jpg" alt="Consola">
+           </div>
+           <div class="col s12 m4" id="padding-img">
+             <img class="materialboxed responsive-img" id="size-img"  src="assets/img/code-min.jpg" alt="code">
+           </div>
+         </div>
+          <div class="row">
+           <div class="col s12 m4" id="padding-img">
+            <img class="materialboxed responsive-img" id="size-img"  src="assets/img/girl-code-min.jpg" alt="girl-code">
+          </div>
+          <div class="col s12 m4" id="padding-img">
+            <img class="materialboxed responsive-img" id="size-img"  src="assets/img/desk-code-min.jpg" alt="desk-code">
+          </div>
+          <div class="col s12 m4" id="padding-img">
+            <img class="materialboxed responsive-img" id="size-img"  src="assets/img/img-1-min.jpg" alt="tree">
+          </div>
+         </div>
+       </div>
+      </section>
+      <!-- contactanos -->
+      <section class="section">
+        <div class="container">
+          <div class="row center-align">
+            <div class="col s12">
+              <h5>CONTACT</h5>
+              <h6>GET IN TOUCH WITH ME</h6>
+              <hr  class="line">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6 l6">
+              <form class="col s12" action="index.html" method="post">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">E-Mail</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea class="materialize-textarea" placeholder="Your Message" required></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="col m6 l6">
+              <div class="col s12">
+                <h6>Address</h6>
+                <p> Nr. 6, 21 Awesome Street, London, UK</p>
+                <h6>Phone Number</h6>
+                <p>+91 9912776151</p>
+                <h6>Website</h6>
+                <p>qnimate.com</p>
               </div>
             </div>
           </div>
-          <div class="col s12 m4 l4">
-            <h6 class="center-align title">CURRENT JOBS</h6>
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header">Designer</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header">Developer</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header">Video Editor</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header">Support Assistant</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-            </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer blue-grey">
+        <div class="footer-copyright blue-grey">
+          <div class="container grey-text text-lighten-4"> © 2014 Copyright<a class="grey-text text-lighten-4 right" href="#">minombre@hotmail.com</a>
           </div>
         </div>
-      </div>
-
-    </section>
-
-
+      </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

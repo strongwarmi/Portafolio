@@ -1,7 +1,14 @@
-body, html {
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 	background-color: #EDEDED !important;
 	margin: 0;
 }
+main {
+  flex: 1 0 auto;
+}
+/*About me*/
 header{
 	background-image: url("../assets/img/bg.jpg");
 	background-size: cover;
@@ -21,4 +28,23 @@ header h5{
 }
 .title{
 	padding: 1rem 0;
+}
+/*portafolio*/
+.line{
+	width: 40px;
+	margin-bottom: 45px;
+}
+#padding-img{
+	padding: 0;
+}
+#size-img{
+	height: 220px;
+	width: 326px;
+	margin: auto;
+}
+.mb-0{
+	margin-bottom: 0;
+}
+h1,h5,h6{
+	text-transform: uppercase;
 }
