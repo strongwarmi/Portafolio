@@ -11,7 +11,7 @@ main {
 /*About me*/
 header{
 	background-image: url("../assets/img/bg.jpg");
-	background-size: 350%;
+	background-size: 500%;
 	background-repeat: no-repeat;
   background-position: center;
 	top: 0;
@@ -39,9 +39,14 @@ header h5{
 	padding: 0 !important;
 }
 .size-img{
-	height: 250px;
-	width: 300px;
+  width: 100%;
 	margin: auto;
+  height: 100px;
+}
+@media screen and (min-width:600px){
+  .size-img{
+    height: 220px;
+  }
 }
 .mb-0{
 	margin-bottom: 0;
