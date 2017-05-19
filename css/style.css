@@ -7,6 +7,10 @@ main {
     flex: 1 0 auto;
 }
 /*portafolio*/
+.line{
+	width: 40px;
+	margin-bottom: 45px;
+}
 #padding-img{
 	padding: 0;
 }
@@ -18,8 +22,11 @@ main {
 .mb-0{
 	margin-bottom: 0;
 }
-.mt-5,#row{
-	margin-top: 5%;
+.pb-20{
+	padding-bottom: 8%;
+}
+.mt-5{
+	margin-top: 4%;
 }
 /*contact*/
 .contacto {
@@ -32,10 +39,6 @@ main {
 	margin-bottom: 15px;
 }
 .contacto h6{
-	margin-bottom: 45px;
-}
-.contacto hr{
-	width: 40px;
 	margin-bottom: 45px;
 }
 .contacto .contactanos{
