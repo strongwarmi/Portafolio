@@ -1,10 +1,12 @@
-body, html {
-	background-color: #EDEDED !important;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-.grid-example{
-  text-align: center;
-  color: white;
+main {
+    flex: 1 0 auto;
 }
+/*portafolio*/
 #padding-img{
 	padding: 0;
 }
@@ -18,4 +20,30 @@ body, html {
 }
 .mt-5,#row{
 	margin-top: 5%;
+}
+/*contact*/
+.contacto {
+	background-color: #EDEDED;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.contacto h5, .contacto h6{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.contacto h6{
+	margin-bottom: 45px;
+}
+.contacto hr{
+	width: 40px;
+	margin-bottom: 45px;
+}
+.contacto .contactanos{
+    padding-left: 40px;
+}
+.contacto .contactanos h6{
+    margin-bottom: 15px;
+}
+.contacto .contactanos p{
+    margin-bottom: 30px;
 }
