@@ -1,7 +1,24 @@
 body, html {
 	background-color: #EDEDED !important;
+	margin: 0;
 }
-.grid-example{
-  text-align: center;
-  color: white;
+header{
+	background-image: url("../assets/img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 0;
+	height: 100vh;
+}
+header h5{
+	padding: 10px;
+}
+.justify{
+	text-align: justify;
+}
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.title{
+	padding: 1rem 0;
 }
