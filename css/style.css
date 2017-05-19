@@ -1,7 +1,27 @@
-body, html {
-	background-color: #EDEDED !important;
+.contacto {
+	background-color: #EDEDED;
+	height: 100vh;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
-.grid-example{
-  text-align: center;
-  color: white;
+.contacto h5, .contacto h6{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.contacto h6{
+	margin-bottom: 45px;
+}
+.contacto hr{
+	width: 40px;
+	margin-bottom: 45px;
+}
+.contacto .contactanos{
+    padding-left: 40px;
+}
+
+.contacto .contactanos h6{
+    margin-bottom: 15px;
+}
+.contacto .contactanos p{
+    margin-bottom: 30px;
 }
